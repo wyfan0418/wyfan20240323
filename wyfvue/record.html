@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-TW" class="notranslate" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <title>輔仁大學線上請假系統</title>
+    <link
+      href="C:\Users\wyfbd\OneDrive\桌面\wyfan20240323\wyfvue\main.9603b77e.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin-left: 500px;
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="record-page">
+      <div class="popup"></div>
+      <div class="top-tab-bar">
+        <div class="primary-title">請假記錄</div>
+        <div class="tab-item-group">
+          <button class="tab-item active">全部</button>
+          <button class="tab-item">審核中</button>
+          <button class="tab-item">已批准</button>
+          <button class="tab-item">已拒絕</button>
+        </div>
+        <div class="user-info">
+          <img
+            src="/static/media/account.e1bc36c8aaf3b974115d9e7865b79414.svg"
+            class="user-icon"
+            alt="user-icon"
+          />
+        </div>
+      </div>
+      <div id="record-page-content" class="content">
+        <div class="infinite-scroll-component__outerdiv">
+          <div class="infinite-scroll-component" style="height: auto; overflow: auto">
+            <div class="record-card">
+              <div class="record-bar pending-bar">
+                <img
+                  src="C:\Users\wyfbd\OneDrive\桌面\wyfan20240323\wyfvue\審核中.gif"
+                  class="icon"
+                  alt="pending-icon"
+                /><span class="bold">審核中</span>&nbsp;&nbsp;&nbsp;2024/03/28 23:50 提出申請
+              </div>
+              <div class="record-content">
+                <div title="系統分析與設計" class="Truncate-sc-1d9305p-0 cYjrcI">
+                  系統分析與設計
+                </div>
+                <div>
+                  <div class="leave-time">
+                    <li>2024/03/28 生理假</li>
+                    <div class="sessions">
+                      <li>8 節</li>
+                      <li>9 節</li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="record-card">
+              <div class="record-bar refused-bar">
+                <img
+                  src="C:\Users\wyfbd\OneDrive\桌面\wyfan20240323\wyfvue\紅叉叉.jpg"
+                  class="icon"
+                  alt="approve-icon"
+                /><span class="bold">已拒絕</span>&nbsp;&nbsp;&nbsp;2023/12/13 10:59 提出申請
+              </div>
+              <div class="record-content">
+                <div title="安寧照護" class="Truncate-sc-1d9305p-0 cYjrcI">安寧照護</div>
+                <div>
+                  <div class="leave-time">
+                    <li>2023/12/13 病假</li>
+                    <div class="sessions">
+                      <li>3 節</li>
+                      <li>4 節</li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="record-card">
+              <div class="record-bar approved-bar">
+                <img
+                  src="C:\Users\wyfbd\OneDrive\桌面\wyfan20240323\wyfvue\綠色勾勾.jpg"
+                  class="icon"
+                  alt="approve-icon"
+                /><span class="bold">已批准</span>&nbsp;&nbsp;&nbsp;2023/12/12 11:50 提出申請
+              </div>
+              <div class="record-content">
+                <div title="書法藝術與應用設計I" class="Truncate-sc-1d9305p-0 cYjrcI">
+                  書法藝術與應用設計I
+                </div>
+                <div>
+                  <div class="leave-time">
+                    <li>2023/12/12 病假</li>
+                    <div class="sessions">
+                      <li>1 節</li>
+                      <li>2 節</li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating-button">
+        <div class="floating-button-box">
+          <div class="menu-first-action">
+            <img
+              class="leave-ico"
+              src="/static/media/hand.9994e3ab50f130f414dc210279359f71.svg"
+              alt="hand Logo"
+            />
+            <div class="menu-first-action-title-mb">請假</div>
+            <div class="menu-first-action-title-pc">我要請假</div>
+          </div>
+          <img
+            class="partition"
+            src="/static/media/partitionButton.7c3612e3053f2710673cd60048caf96a.svg"
+            alt="line"
+          /><img
+            src="/static/media/menuUnion.554e53137693bd11830da6750d99bcf6.svg"
+            class="menu"
+            alt="basebutton"
+          />
+        </div>
+        <div class="floatingMenu"></div>
+      </div>
+    </div>
+  </body>
+</html>
